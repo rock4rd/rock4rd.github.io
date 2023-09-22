@@ -1,0 +1,152 @@
+body{
+    background-color: #89AF88;
+}
+.Balance{
+    height: 15 px;
+    width: 750px;
+    padding: 20px ;
+    margin: auto;
+    border: solid black;
+    background-color: white;
+    text-align:left;
+    border-radius: 50px;
+}
+.form{
+    
+    border: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+.title{
+    margin-top:25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Radley';
+    font-weight: 100;
+    color:white
+    
+}
+.amount{
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Radley';
+    font-weight: 100;
+    color:white
+}
+.sched{
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Radley';
+    font-weight: 100;
+    color:white
+
+}
+.time{
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Radley';
+    font-weight: 100;
+    color:white
+
+}
+.button{
+    transform: scale(130%);
+    margin-top: 170px;
+    font-size:20px;
+    border-radius: 8px;
+    
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.hidir{
+    color:white;
+    margin-top:1px;
+    opacity: 70%;
+    
+}
+.head{
+    
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border:solid #619363;
+    background-color: #619363;
+    border-radius: 10px;
+   
+}
+.PHP{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -30px;
+  }
+.fill{
+    height: 490px;
+    width: 380px;
+    border: #89AF88;
+    background-color: #89AF88;
+    border-radius: 30px;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 14px;
+    
+}
+.content{
+    height: 515px;
+    width: 1150px;
+    background-color:white;
+    border: solid;
+    margin: auto;
+    border-radius: 35px;
+}
+.navig{
+    height: 200px;
+   
+    margin-top: 13px;
+    margin-left: 345px;
+    width: 63%;
+    border: solid white;
+    background: white;
+    border-radius: 100px;
+    position: absolute;
+    display:inline;
+    
+  }
+  .addincome{
+    height: 115px;
+    width: 115px;
+    display: inline-block;
+    position: absolute;
+    top: 37px;
+    left: 100px;
+  }
+  .addexpense{
+    transform: scale(20%);
+    display:inline-block ;
+    position: absolute;
+    right: 350px;
+    bottom: -150px;
+  }
+  .viewhistory{
+    transform: scale(18%);
+    display: inline-block;
+   position: absolute;
+  right: -50px;
+  top: -140px;
+  
+  }
