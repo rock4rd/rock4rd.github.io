@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+h1, h2, h3 {
+  @apply font-bold text-blue-400;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+a {
+  @apply text-blue-300 hover:text-blue-400 transition duration-300 ease-in-out;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.bg-gray-800 {
+  @apply bg-gray-800;
+}
+
+.bg-gray-700 {
+  @apply bg-gray-700;
+}
+
+.rounded-xl {
+  @apply rounded-xl;
+}
+
+.shadow-xl {
+  @apply shadow-xl;
+}
+
+.mb-12 {
+  @apply mb-12;
+}
+
+.transform {
+  @apply transform;
+}
+
+.transition {
+  @apply transition;
+}
+
+.duration-500 {
+  @apply duration-500;
+}
+
+.hover\:scale-105:hover {
+  @apply scale-105;
+}
